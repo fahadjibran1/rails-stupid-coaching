@@ -1,0 +1,11 @@
+ def search
+  search = params[:answer]
+
+    if search.end_with?("?")
+      "Silly question, get dressed and go to work!"
+    else
+      "I don't care, get dressed and go to work!"
+    end
+
+end
+<%= link_to "ask again !!", ask_path %>
