@@ -13,3 +13,19 @@
  *= require_tree .
  *= require_self
  */
+h1 {
+  color:aqua;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+  color:blue;
+}
+p {
+  color:whitesmoke;
+  background-color: black;
+}
+h3 {
+  background-origin: padding-box;
+  color: brown;
+}
